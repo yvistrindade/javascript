@@ -9,6 +9,8 @@ let idade
 let peso
 let altura
 let vip
+let fcm
+let imc
 
 
 // entradada de dados
@@ -18,6 +20,8 @@ idade = 22
 peso = 60
 altura = 1.74
 vip = true
+fcm = 208 - (0.7 * idade)
+imc = peso / (altura * altura)
 
 // saida
 console.log("ficha do aluno")
@@ -27,3 +31,10 @@ console.log(`idade: ${idade}`)
 console.log(`peso: ${peso}`)
 console.log(`altura: ${altura}`)
 console.log(`vip: ${vip}`)
+console.log(`FCM: ${fcm}`)
+console.log(`imc: ${imc.toFixed(2)}`)
+
+// processamento
+fmc = 208 -(0.7 * idade)
+imc = peso / (altura * altura)
+
