@@ -28,9 +28,14 @@ console.log("Nome: " + nome) // não recomendado
 
 // Arrendodamneto (casas decimais)
 let media = 5.789
-console.log(`media: ${media.tofixed(1)}`)
+console.log(`media: ${media.toFixed(1)}`)
 
 // particularidade do JS 
 console.log(10/0)
 console.log(0.5 + 0.5)
 console.log(0.1 + 0.2)
+console.log("3" + 2)
+console.log("3" - 2)
+console.log("3x" - 2)
+
+

@@ -113,6 +113,9 @@ npm ls (listar pacote instalado)
 npm init (iniciar um novo projeto javascript) 
     Package.jason
 
+    mpm i none_do_pacote (instalar novo pacote)
+    npm r none_do_pacote (para remover o pacote)
+
     jason(javascript objet notation)
     
     Constante e variaveis:
