@@ -1,0 +1,23 @@
+/**
+ * troco
+ * @author yvis trindade
+ */
+
+const input = require (`readline-sync`)
+
+//variaveis
+let total, valorpago, troco
+
+console.clear()
+console.log("troco")
+
+//entrada
+total = Number(input.question("digite o total: "))
+valorpago = Number(input.question("digite o valor pago: "))
+
+//processamento
+troco = (total - valorpago)
+
+//saida
+console.log(`troco = ${troco.toFixed(2)}`)
+
