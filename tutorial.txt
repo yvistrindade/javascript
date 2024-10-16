@@ -169,6 +169,14 @@ observações:
  1-) uma condição nunca pode ser verdadeira e falsa ao mesmo tempo.
  2-) No uso do if-else sempre umas das condições sera processada.
 
+if (condição 1) {
+    //condição 1 verdadeira
+    if (condição 2)
+    //condição 2 verdadeira
+} else {
+    //condição falsa
+}
+obs: nesta estrutura o else é opcional, porem se indicado caso nenhuma condição for verdadeira ele obrigatoriamnete executara ouqe estiver no else
 
 
 
