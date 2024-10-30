@@ -5,7 +5,9 @@
 
 const input = require(`readline-sync`)
 
-let face
+let face, opcao
+
+do {    
 
 console.clear()
 console.log("jogo do dado")
@@ -18,3 +20,5 @@ input.question("pressione a tecla [enter] para jogar o dado")
 
 face = Math.floor(Math.random() *6 + 1) // 0 1 2 3 4 5 6
 console.log(`face do dado: ${face}`)
+opcao = input.question("deseja jogar novamente(s/n) ")
+}while (opcao === `s`);
