@@ -51,27 +51,27 @@ do {
 
     //somar
     function somar(a, b) {
-        return console, log(`A soma de ${a} + ${b} = ${a + b}`)
+        return console.log(`A soma de ${a} + ${b} = ${a + b}`)
     }
 
 
     //subtrair
     function subtrair(a, b) {
-        return console, log(`A subtração de ${a} - ${b} = ${a - b}`)
+        return console.log(`A subtração de ${a} - ${b} = ${a - b}`)
     }
 
     //multiplicar
     function multiplicar(a, b) {
-        return console, log(`A multiplicar de ${a} * ${b} = ${a * b}`)
+        return console.log(`A multiplicar de ${a} * ${b} = ${a * b}`)
     }
 
     //dividir
     function dividir(a, b) {
-        return console, log(`A divisao de ${a} / ${b} = ${a / b}`)
+        return console.log(`A divisao de ${a} / ${b} = ${a / b}`)
     }
     //porcentagem
     function dividir(a, b) {
-        return console, log(`A porcentagem de ${b} % ${a} = ${(b * a) / 100}`)
+        return console.log(`A porcentagem de ${b} % ${a} = ${(b * a) / 100}`)
     }
     opcao = input.question("deseja jogar novamente {s} {n}: ")
 } while (opcao === 's');
