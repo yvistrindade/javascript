@@ -217,6 +217,38 @@ do {
 As estruturas while e do-while são estruturas de repitiçoes infinitas, ou seja enquanto a condição for verdadeira o codigo interno sera repetido infinitamente 
 }
 
+----------------------------------------------
+POO (programação orientada e objetos)
+
+Objeto -> estrutura de dados
+
+Conceito relacionado a estrutura de dados:
+CRUD (create Read update delete )
+sao as 4 operações basicas que podemos realizar com a Estrutura de dados: 
+create: inserção de dados na estrutura
+Read: pesquisa de dados na estrtura 
+update: alteração de dados na estrtura 
+delete: exclusao de dados 
+
+pilares da programaçao orientado a objetos 
+//reutilização
+abstração
+herança
+polimorfismo
+encapsulamento
+
+observações:
+toda classe modelos obrigatoriamnete deve se inciar com letra maiuscula
+
+Dica:
+
+Classe (biologfia)
+
+lingua portuguesa:
+Objeto (substantivo)
+atributo (adjetivo)
+metodos (verbos)
+
 
 
 
