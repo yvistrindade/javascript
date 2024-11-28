@@ -78,8 +78,8 @@ class Aviao extends Carro {
     }
 }
 
-    /****** Testando a classe Carro ******/
-    const carro1 = new Carro("Hyundai", "Hb20", 2022, "amarelo");
+/****** Testando a classe Carro ******/
+const carro1 = new Carro("Hyundai", "Hb20", 2022, "amarelo");
 carro1.criarCarro();
 carro1.ligar();
 carro1.acelerar();
@@ -87,7 +87,7 @@ carro1.desligar();
 
 console.log(""); // Separador
 
-    const carro2 = new Carro("Fiat", "Argo", 2021, "vermelho");
+const carro2 = new Carro("Fiat", "Argo", 2021, "vermelho");
 carro2.criarCarro();
 carro2.acelerar(); // Testando acelerar sem ligar
 carro2.ligar();
@@ -96,8 +96,8 @@ carro2.desligar();
 
 console.log(""); // Separador
 
-    /****** Testando a classe Aviao ******/
-    const aviao1 = new Aviao("Boeing", "737", "2546")
+/****** Testando a classe Aviao ******/
+const aviao1 = new Aviao("Boeing", "737","2546")
 aviao1.criarAviao();
 aviao1.acelerar();
 aviao1.aterrizar();
