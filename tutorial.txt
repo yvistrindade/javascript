@@ -60,7 +60,7 @@ git push (enviar ao repositorio)
 git add . (adiciona ao repositorio local)
 git commit -m "tutorial" (documentar as alterações)
 git status
-git pull (sincroniza as informações do repositorio do pc)
+git pull (sincroniza as informações do repositorio do pc).
 
 --------------------------------------------------------
 Gerar token GitHub
